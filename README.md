@@ -9,6 +9,7 @@ The actual signing of the transaction is the trickiest part. Thankfully, we know
 ```python
 from ecc import PrivateKey
 from tx import Tx, TxIn, TxOut
+from script import Script
 from helper import (
     decode_base58,
     p2pkh_script,
